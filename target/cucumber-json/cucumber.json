@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the appearence and functionality of Love Link on AskGanesha Home Page",
+        "description": "",
+        "id": "verify-the-functionality-of-askganesha-love-site;verify-the-appearence-and-functionality-of-love-link-on-askganesha-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27997109481,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I see the Love Link",
+            "match": {
+              "location": "AskGanesha_Steps.I_see_the_Love_Link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 195010,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Love Link",
+            "match": {
+              "location": "AskGanesha_Steps.I_click_on_the_Love_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 581541388,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I confirm that the Love page is displayed",
+            "match": {
+              "location": "AskGanesha_Steps.I_confirm_that_the_Love_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the functionality of AskGanesha Love site",
+    "description": "",
+    "id": "verify-the-functionality-of-askganesha-love-site",
+    "keyword": "Feature",
+    "uri": "file:AskGanesha1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify the user has landed correctly on the Landing page",
+        "description": "",
+        "id": "verify-the-functionality-of-askganesha-site;verify-the-user-has-landed-correctly-on-the-landing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28566881806,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I see the GaneshJee Image",
+            "match": {
+              "location": "AskGanesha_Steps.I_see_the_GaneshJee_Image()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87242,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify various elements on AskGanesha Landing Page",
+            "match": {
+              "location": "AskGanesha_Steps.I_verify_various_elements_on_AskGanesha_Landing_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 939945705,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I confirm that user has reached the home page",
+            "match": {
+              "location": "AskGanesha_Steps.I_confirm_that_user_has_reached_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Second"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the functionality of AskGanesha site",
+    "description": "",
+    "id": "verify-the-functionality-of-askganesha-site",
+    "keyword": "Feature",
+    "uri": "file:AskGanesha2.feature",
+    "tags": []
+  }
+]

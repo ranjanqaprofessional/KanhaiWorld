@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="58.099465">
+<testcase classname="Verify the functionality of AskGanesha Love site" name="Verify the appearence and functionality of Love Link on AskGanesha Home Page" time="28.584446">
+<system-out><![CDATA[Given I see the Love Link...................................................passed
+When I click on the Love Link...............................................passed
+Then I confirm that the Love page is displayed..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the functionality of AskGanesha site" name="Verify the user has landed correctly on the Landing page" time="29.515019">
+<system-out><![CDATA[Given I see the GaneshJee Image.............................................passed
+When I verify various elements on AskGanesha Landing Page...................passed
+Then I confirm that user has reached the home page..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
